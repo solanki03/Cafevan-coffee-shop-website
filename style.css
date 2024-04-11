@@ -1,0 +1,453 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(45, 19, 19);
+    height: 60px;
+    width: 100%;
+    padding: 0px 30px;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+.right-nav-items a{
+    text-decoration: none;
+    color: burlywood;
+    background-color: rgb(45, 19, 19);
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.right-nav-items{
+    background-color: rgb(45, 19, 19);
+    display: flex;
+    align-items: center;
+}
+
+.right-nav-items i{
+    font-size: 20px;
+    color: burlywood;
+    background-color: rgb(45, 19, 19);
+}
+
+.left-nav-items {
+    padding: 10px;
+    background-color: rgb(45, 19, 19);
+}
+.left-nav-items h1{
+    font-size: 30px;
+    color: burlywood;
+    background-color: rgb(45, 19, 19);
+}
+
+.left-nav-items a{
+    text-decoration: none;
+}
+
+/* -------- Hero Section -------- */
+.section1{
+    margin-top: 50px;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 85vh;
+    background-position: center;
+}
+
+.intro{
+    width: 80%;
+    height: 85vh;
+    position: relative;
+}
+
+.heading{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(46, 3, 3);
+}
+
+.heading h3{
+    font-size: 150px;
+    text-shadow: 6px 2px 5px #332221, 0 0 5px #e1853e;
+}
+
+.heading p{
+    opacity: 0.7;
+    font-size: 32px;
+    font-style: italic;
+    text-shadow: 6px 2px 5px #332221, 0 0 5px #e1853e;
+}
+
+/* -------- ABout section  -------- */
+
+.section2{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(45, 19, 19);
+    position: relative; 
+}
+
+.about-info{
+    width: 90%;
+    height: 70vh;
+    border: 5px double burlywood;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+}
+
+/* --- TOP --- */
+.about-info-top{
+    width: 95%;
+    height: 10vh;
+    color: blanchedalmond;
+    padding: 0px 40px;
+    position:absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-info-top h2{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.about-info-top p{
+    font-family:Calibri;
+}
+
+/* --- Middle --- */
+.about-info-middle{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-evenly;
+    color: blanchedalmond;
+}
+
+/* ---Middle left--- */
+.about-left{
+    width: 60%;
+    height: 50%;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.about-left h2{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.about-left li, .about-left strong{
+    line-height: 22px;
+    margin-top: 2px;
+    font-family: Calibri;
+}
+
+/* ---Middle right--- */
+.about-right{
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(images/cup_img.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid burlywood;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+/* --- Bottom --- */
+.about-info-bottom{
+    width: 95%;
+    height: 5vh;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 10px 40px;
+    position:absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10px;
+}
+.about-info-bottom h3{
+    font-size: 20px;
+    
+}
+
+/* -------- Menu items -------- */
+.section3{
+    background-image: url(images/coffee_beans.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.menu-contents{
+    width: 90%;
+    height: 90vh;
+    border: 7px double burlywood;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+    display: flex;
+}
+
+/* -------- Heading Top part -------- */
+.menu-heading{
+    width: 95%;
+    height: 11vh;
+    color: burlywood;
+    padding: 0px 40px;
+    position:absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-heading h2{
+    font-size: 70px;
+    margin-bottom: 8px;
+    text-align: center;
+    text-shadow: 6px 2px 5px #332221, 0 0 5px #e1853e;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(46, 3, 3);
+}
+
+/* -------- Menu items div, Bottom part -------- */
+.menu-items{
+    width: 98%;
+    height: 70vh;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-evenly;
+    color: rgb(45, 19, 19);
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 5px 5px;
+    margin: 0px 5px;
+}
+
+/* -------- Each Items -------- */
+.item{
+    height: 235px;
+    width: 210px;
+    background-color:burlywood;
+    border-radius: 20px;
+    padding: 10px 0px;
+    margin-top: 10px;
+    box-shadow: 4px 4px rgb(150, 71, 52);
+}
+/* ----- Image ----- */
+.img-div{
+    width: 210px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+.image{
+    width: 110px;
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #e1853e;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/*  ----- Item name and price -----  */
+.item-detail, .quantity{
+    width: 210px;
+    height: auto;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-detail h3,h4{
+    font-size: 18px;
+}
+
+.box-space{
+    width: 50px;
+    background-color: rgba(240, 248, 255, 0.196);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+}
+/* ----- Buttons  ----- */
+.menu-option{
+    margin: 12px;
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-btn1, .menu-btn2{
+    background-color: rgb(45, 19, 19);
+    color: bisque;
+    height: 25px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgb(150, 71, 52);
+    padding: 0px 6px;
+    min-width: 25px;
+    font-family:Calibri;
+}
+/* ----- Menu items Images ----- */
+.Ino1{
+    background-image: url(images/black_coffee.jpg);
+}
+
+.Ino2{
+    background-image: url(images/espresso.jpg);
+}
+
+.Ino3{
+    background-image: url(images/Latte.jpg);
+}
+
+.Ino4{
+    background-image: url(images/Cappuccino.jpg);
+}
+
+.Ino5{
+    background-image: url(images/Americano.jpg);
+}
+
+.Ino6{
+    background-image: url(images/Mocha.jpg);
+}
+
+.Ino7{
+    background-image: url(images/Iced\ Coffee.jpg);
+}
+
+.Ino8{
+    background-image: url(images/Macchiato.jpg);
+}
+
+.Ino9{
+    background-image: url(images/Doppio.jpg);
+}
+
+.Ino10{
+    background-image: url(images/Matcha\ Latte.jpg);
+}
+
+/* ------- Footer part, Contact Informantion ------- */
+.section4{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(45, 19, 19);
+    position: relative; 
+    padding: 30px 65px;
+    color: burlywood;
+}
+
+.contact-us-top{
+    width: auto;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 5px 5px;
+    margin: 0px 5px;
+    align-content: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #e1853e;
+}
+/* ----- Footer image ----- */
+.img-icon{
+    width: 250px;
+    height: 250px;
+    background-image: url(images/footer_logo.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border-right: 2px solid #e1853e;
+}
+
+.contact-details a, .socials-pt a, .contact-us-bottom a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+.socials-pt a{
+    padding-right: 10px;
+}
+
+.contact-us-top h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e1853e;
+}
+.contact-us-top p{
+    font-family: Calibri;
+}
+
+/* ----- Copy right info part ----- */
+.contact-us-bottom{
+    min-width: 80%;
+    height: 18%;
+    position:absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+    text-align: center;
+}
+
+/* ------ Adding Effects ------- */
+/* 
+.navbar a:hover {
+    background: #e1853e;
+    color: #332221;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
