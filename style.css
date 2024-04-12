@@ -248,13 +248,13 @@
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: rgb(45, 19, 19);
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-template-rows: repeat(2, auto);
     gap: 5px 5px;
-    margin: 0px 5px;
+    justify-items: center;
 }
 
 /* -------- Each Items -------- */
@@ -396,6 +396,7 @@
     border-right: 2px solid #e1853e;
 }
 
+/* ----- Footer details ----- */
 .contact-details a, .socials-pt a, .contact-us-bottom a{
     text-decoration: none;
     color: burlywood;
@@ -449,6 +450,93 @@
     color: bisque;
 }
 
+/* ----- Responsive feature ----- */
+@media(max-width:1230px){
+    .section3{
+        height: 130vh;
+        width: auto;
+    }
+    .menu-contents{
+        height:120vh;
+        align-content: center;
+    }
+    .menu-items{
+        top: 44%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, auto);
+        margin-left: 10px;
+    }
+    .contact-us-top{
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(2, auto);
+    }
+    .img-icon{
+        grid-row: 1/3;;
+    }
+}
+
+@media(max-width:1000px){
+    .section1{
+        height: 65vh;
+    }
+    .intro{
+        width: 70%;
+        height: 65vh;
+    }
+    .heading h3{
+        font-size: 100px;
+    }
+    .heading p{
+        font-size: 21px;
+    }
+    .about-info-top h2{
+        font-size: 26px;
+    }
+    .about-info-middle{
+        top: 58%;
+    }
+    .about-info-bottom{
+        top: 90%;
+    }
+    .about-right{
+        width: 240px;
+        height: 240px;
+    }
+    .section3{
+        height: 150vh;
+        width: auto;
+    }
+    .menu-contents{
+        height:140vh;
+        align-content: center;
+    }
+    .menu-items{
+        top: 40%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, auto);
+    }
+    .item{
+        height: 210px;
+        width: 190px;
+    }
+    .img-div{
+        width: 190px;
+        height: 90px;
+    }
+    .image{
+        width: 90px;
+        height: 90px;
+    }
+    .item-detail, .quantity{
+        width: 190px;
+    }
+    .item-detail h3,h4{
+        font-size: 16px;
+    }
+    .menu-option{
+        width: 170px;
+    }
+}
 
 
 
