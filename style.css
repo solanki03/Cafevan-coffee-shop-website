@@ -193,7 +193,6 @@
 }
 .about-info-bottom h3{
     font-size: 20px;
-    
 }
 
 /* -------- Menu items -------- */
@@ -379,7 +378,7 @@
     display: grid;
     grid-template-columns: repeat(5, auto);
     gap: 5px 5px;
-    margin: 0px 5px;
+    /* margin: 0px 5px; */
     align-content: center;
     justify-content: space-evenly;
     border-bottom: 2px solid #e1853e;
@@ -483,6 +482,9 @@
         width: 70%;
         height: 65vh;
     }
+    .about-info-top{
+        top: 12%;
+    }
     .heading h3{
         font-size: 100px;
     }
@@ -493,7 +495,7 @@
         font-size: 26px;
     }
     .about-info-middle{
-        top: 58%;
+        top: 53%;
     }
     .about-info-bottom{
         top: 90%;
@@ -527,6 +529,9 @@
         width: 90px;
         height: 90px;
     }
+    .section4{
+        padding: 30px;
+    }
     .item-detail, .quantity{
         width: 190px;
     }
@@ -537,6 +542,62 @@
         width: 170px;
     }
 }
+
+@media(max-width:890px){
+    .section2{
+        height: 70vh;
+    }
+    .about-info{
+        height: 60vh;
+    }
+    .about-info-top h2{
+        font-size: 24px;
+    }
+    .about-info-top p{
+        font-size: 14px;
+    }
+    .about-info-middle{
+        top: 60%;
+    } 
+    .about-left h2{
+        font-size: 18px;
+    }
+    .about-left li, .about-left strong{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .about-right{
+        width: 200px;
+        height: 200px;
+    }
+    .about-info-bottom{
+        top: 90%;
+    }
+    .about-info-bottom h3{
+        font-size: 18px;
+    }
+    .menu-items{
+        margin: 0px;
+    }
+    .section4{
+        padding-bottom: 0px;
+    }
+    .contact-us-bottom{
+        top: 90%;
+        font-size: 14px;
+        height: 10%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
