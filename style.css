@@ -544,11 +544,21 @@
 }
 
 @media(max-width:890px){
+    .section1{
+        height: 40vh;
+    }
+    .intro{
+        width: 70%;
+        height: 40vh;
+    }
     .section2{
-        height: 70vh;
+        height: 60vh;
     }
     .about-info{
-        height: 60vh;
+        height: 50vh;
+    }
+    .about-info-top{
+        top: 17%;
     }
     .about-info-top h2{
         font-size: 24px;
@@ -557,7 +567,7 @@
         font-size: 14px;
     }
     .about-info-middle{
-        top: 60%;
+        top: 70%;
     } 
     .about-left h2{
         font-size: 18px;
@@ -578,6 +588,15 @@
     }
     .menu-items{
         margin: 0px;
+    }
+    .section3{
+        height: 120vh
+    }
+    .menu-contents{
+        height:110vh;
+    }
+    .menu-items{
+        top: 45%;
     }
     .section4{
         padding-bottom: 0px;
