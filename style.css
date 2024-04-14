@@ -291,7 +291,7 @@
     justify-content: space-around;
 }
 
-.item-detail h3,h4{
+.item-detail h3, .item-detail h4{
     font-size: 18px;
 }
 
@@ -378,7 +378,6 @@
     display: grid;
     grid-template-columns: repeat(5, auto);
     gap: 5px 5px;
-    /* margin: 0px 5px; */
     align-content: center;
     justify-content: space-evenly;
     border-bottom: 2px solid #e1853e;
@@ -532,7 +531,7 @@
     .item-detail, .quantity{
         width: 190px;
     }
-    .item-detail h3,h4{
+    .item-detail h3, .item-detail h4{
         font-size: 16px;
     }
     .menu-option{
@@ -601,27 +600,199 @@
     .section4{
         padding-bottom: 0px;
     }
-    .contact-us-bottom{
+    .contact-us-bottom, .contact-us-bottom a{
         top: 90%;
         font-size: 14px;
         height: 10%;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media(max-width:426px){
+    /* ------ Navigation bar ------ */
+    .navbar{
+        height:40px;
+        padding: 0px 5px;
+    }
+    .left-nav-items{
+        padding: 0px;
+    }
+    .left-nav-items {
+        padding: 3px;
+        align-content: center;
+    }
+    .left-nav-items h1{
+        font-size: 18px;
+    }
+    .right-nav-items a{
+        margin-right: 0px;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 5px;
+    }
+    .right-nav-items i{
+        font-size: 14px;
+    }
+    .section1{
+        height: 30vh;
+    }
+    .intro{
+        height: 30vh;
+    }
+    .heading h3{
+        font-size: 45px;
+    }
+    .heading p{
+        font-size: 9px;
+    }
+    /* ---------- About Section ---------- */
+    .section2{
+        height: 50vh;
+    }
+    .about-info{
+        height: 45vh;
+        border-width: 3px;
+    }
+    .about-info-top{
+        top: 12%;
+        height: 5vh;
+        padding: 0px 10px;
+    }
+    .about-info-top h2{
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+    .about-info-top p, strong{
+        font-size: 8px;
+    }
+    .about-info-middle{
+        top: 53%;
+        height: 20vh;
+        justify-content:space-between;
+        padding: 0px 16px;
+    }
+    .about-right{
+        width: 50px;
+        height: 50px;
+        margin-top: 40px;
+    }
+    .about-left{
+        padding: 0px 0px 0px 10px;
+        width: 85%;
+    }
+    .about-left h2{
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+    .about-left li, .about-left strong{
+        font-size: 8px;
+        line-height:inherit;
+    }
+    .about-info-bottom{
+        height: 3vh;
+        padding: 5px 10px;
+    }
+    .about-info-bottom h3{
+        font-size: 8px;
+    }
+    /* ---------- Menu ----------*/
+    .section3{
+        height: 120vh;
+    }
+    .menu-contents{
+        height: 115vh;
+        border-width: 3px;
+    }
+    .menu-heading{
+        height: 5vh;
+    }
+    .menu-heading h2{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    .menu-items{
+        top: 45%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+    .item{
+        height: 110px;
+        width: 90px;
+    }
+    .img-div{
+        width: 90px;
+        height: 40px;
+    }
+    .image{
+        width: 40px;
+        height: 40px;
+    }
+    .item-detail, .quantity{
+        width: 90px;
+        margin-top: 5px;
+    }
+    .quantity i{
+        font-size: 8px;
+    }
+    .item-detail h3, .item-detail h4{
+        font-size: 8px;
+    }
+    .box-space{
+        width: 20px;
+        font-size: 8px;
+    }
+    .menu-option{
+        width: 80px;
+        margin: 5px;
+        justify-content: space-around;
+    }
+    .menu-btn1, .menu-btn2{
+        font-size: 6px;
+        height: 13px;
+        padding: 0px 3px;
+        min-width: 15px;
+    }
+    /* ------ Footer part, Contact us ------ */
+    .section4{
+        height: 40vh;
+        padding: 10px;
+    }
+    .contact-us-top{
+        height: 85%;
+    }
+    .img-icon{
+        width: 110px;
+        height: 110px;
+    }
+    .contact-us-top h3{
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .contact-us-top p{
+        font-size: 8px;
+    }
+    .contact-details a, .socials-pt a, .contact-us-bottom a, .contact-us-bottom h4{
+        font-size: 8px;
+    }
+    .socials-pt i{
+        font-size: 10px;
+    }
+    .contact-us-bottom{
+        height: 10%;
+    }
+    /* ----- effects ----- */
+    .right-nav-items a:hover {
+        font-size: 13px;
+    } 
+    .right-nav-items i:hover {
+        font-size: 15px;
+    } 
+    .contact-us-top h3:hover{
+        font-size: 11px;
+    }
+    .socials-pt i:hover{
+        font-size: 11px;
+    }
+}
 
 
 
